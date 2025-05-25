@@ -4,8 +4,8 @@ const msgs   = document.getElementById('messages');
 const inp    = document.getElementById('input');
 const send   = document.getElementById('send');
 
-const TOKEN  = 'PLACEHOLDER_TOKEN';
-const API    = 'https://<FUNCTION_APP>.azurewebsites.net/api/ChatWebhook';
+const TOKEN  = 'X8f71aBzX78zuvJK$k';
+const API    = 'fa-chat-widget.azurewebsites.net';
 
 toggle.onclick = () =>
   box.style.display = box.style.display === 'none' ? 'flex' : 'none';
